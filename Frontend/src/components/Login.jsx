@@ -1,5 +1,6 @@
 import { useState } from "react"
 import axios from "axios"
+import "../styles/login.css"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -82,17 +83,17 @@ export default function Login() {
 
     return (
         <div className="signup-card">
-            <input type="email"
+            <input id="email" type="email"
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
-            <input type="password"
+            <input id="password" type="password"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
             />
-            <button onClick={handleSubmit}>Submit</button>
+            <button id="submit" onClick={handleSubmit}>Submit</button>
             <ToastContainer></ToastContainer>
         </div>
 

@@ -1,10 +1,9 @@
 .signup-card {
     width: 300px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
-    background-color: #f0f0f0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
 }
 
 .signup-card input[type="text"],
@@ -13,9 +12,9 @@
 .signup-card button {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid;
 }
 
 .signup-card button {
@@ -26,6 +25,28 @@
 
 .signup-card button:hover {
     background-color: #0056b3;
+}
+
+#username{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 279px;
+    background-color: whitesmoke;
+    
+}
+
+#email{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 279px;
+    background-color: whitesmoke;
+}
+
+#password{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 279px;
+    background-color: whitesmoke;
 }
 
 

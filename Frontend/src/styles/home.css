@@ -1,6 +1,22 @@
+body{
+  font-family:'Courier New', Courier, monospace;
+  background: linear-gradient(120deg,#2f97dc,#a543ce);
+  overflow: hidden;
+  
+}
+
 .menu {
-    background-color: #333; /* Background color for the menu */
-    padding: 10px; /* Add padding to the menu */
+    background-color: #EFEEF5; /* Background color for the menu */
+    padding: 40px; /* Add padding to the menu */
+    margin-top: 300px;
+    margin-bottom: 50px;
+    margin-left: 480px;
+    margin-right: 430px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px black;
+    
   }
   
   .menu nav ul {
@@ -11,13 +27,20 @@
   
   .menu nav ul li {
     display: inline; /* Display list items inline */
-    margin-right: 20px; /* Add some space between menu items */
+    margin-right: 300px; /* Add some space between menu items */
   }
   
   .menu nav ul li a {
     text-decoration: none; /* Remove underline from links */
-    color: #fff; /* Text color for links */
+    color: black; /* Text color for links */
     font-weight: bold; /* Make text bold */
+    border: 2px solid black;
+    border-radius: 5rem;
+    text-align: justify;
+    font-size: 1.8rem;
+    padding: 10px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px black;
   }
   
   .menu nav ul li a:hover {
