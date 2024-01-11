@@ -91,17 +91,17 @@ export default function Signup() {
 
     return (
         <div className="signup-card">
-            <input type="text"
+            <input id="username" type="text"
                 placeholder="Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
             />
-            <input type="email"
+            <input id="email" type="email"
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
-            <input type="password"
+            <input id="password" type="password"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
